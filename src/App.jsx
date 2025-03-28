@@ -16,8 +16,13 @@ function App() {
 
   return (
     <>
+      <div className='container mt-5 mb-5 text-center text-light bg-dark p-5 rounded shadow border border-light border-5'>
+        <h1>Post List</h1>
+
+      </div>
+
       {
-        <table>
+        <table className='table table-striped table-bordered table-dark' >
           <thead>
             <tr>
               <th>Title</th>
